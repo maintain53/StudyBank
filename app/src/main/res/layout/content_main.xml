@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nwokoye.studybank.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="100">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add note"
+        android:textAllCaps="true"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@mipmap/images"
+        android:textSize="30sp"
+        android:background="@drawable/round"
+        android:id="@+id/note"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffFF"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/reader"
+        android:background="@drawable/round"
+        android:text="view note"
+        android:layout_marginRight="30dp"
+        android:id="@+id/vnote"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffFF"
+     />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delete course"
+            android:background="@drawable/round"
+            android:drawableLeft="@mipmap/download"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="30sp"
+            android:id="@+id/delcos"
+            android:textColor="#ffffFF"
+            android:layout_centerInParent="true"
+           />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="add questions"
+            android:background="@drawable/round"
+            android:textAllCaps="true"
+            android:drawableLeft="@mipmap/mark"
+            android:textSize="30sp"
+            android:textColor="#ffffFF"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/question"
+            android:layout_centerInParent="true"
+           />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="quiz"
+            android:textAllCaps="true"
+            android:drawableLeft="@mipmap/quiz"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="30sp"
+            android:id="@+id/quiz"
+            android:textColor="#ffffFF"
+            android:layout_centerInParent="true"
+           />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
